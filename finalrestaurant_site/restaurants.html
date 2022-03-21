@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Best Restaurants in Portland, Oregon</title>
+
+    <style> a:hover{
+        color:red;} 
+    </style>
+
+    <link rel="stylesheet" type = "text/css" href="/restaurant_css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+              <nav>
+                <div id="navdiv">
+                  <a href="/restaurants.html" class="current" id = "navitem">Best Restaurant</a>
+                  <a href="/restaurants_page2.html" id = "navitem">Bucket List Item</a>
+                  <a href="/restaurants_page3.html" id = "navitem">Extra Hot Option</a>
+                  <input type="text">
+                  <img src="https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png" alt="search icon" style="width: 30px; height: 30px;">
+                  <p>Sign In</p>
+                  <img src="http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg" alt="shopping shopping-cart-icon" style="width: 30px; height: 30px;" id="cartimage">
+                </div>
+            </nav>
+        </header>
+        <h1>Welcome to My List of the Best Restaurants in Portland, OR</h1>
+        <img src="https://pinestatebiscuits.com/wp-content/uploads/2019/05/psbnw_pic-scaled-1000x750.jpg" class="image">
+        <ul>
+            <li>
+                <a href="https://www.mamabirdpdx.com/" target="blank">Mamma Bird</a> - interesting bistro style restaurant serving fire grilled chicken and unique sides!
+            </li>
+            <li>
+                <a href="https://pokpokrestaurants.com" target="blank">Pok Pok</a> - amazing Thai Fusion like nothing you've had before! You've got to try the wings!
+            </li>
+            <li>
+                <a href="https://www.bollywoodtheaterpdx.com" target="blank"><b>Bollywood Theatre</b></a> - This restaurant in particular is one of the best in the city. Even if you don't like Indian food you'll 
+                    love this place.
+            </li>
+            <li>
+                <a href="https://pinestatebiscuits.com/" target="blank">Pine State Biscuit</a> - Try the homemade PopTarts!
+            </li>
+            <li>
+                <a href="https://wafflewindow.com/" target="blank">Waffle Window</a> - Great breakfast spot for unique waffles and great coffee!
+            </li>
+        </ul>
+        <div id="question">Have you ever eaten at any of these Portland restaurants?></div>
+        <label for="portland-yes">
+            <input id="portland-yes" type="radio" name:yes-no>Yes
+        </label>
+        <label for="portland-no">
+            <input id="portland-no" type="radio" name:yes-no>No
+        </label>
+        <input type="submit" name:submit>
+        <br>
+        <br>
+        <label for="favorites" id: urfavorite>What is your favorite of these foods?
+            <select id="favorites" name="favorites">
+                <option value="Thai">Thai Food</option>
+                <option value="Indian">Indian Food</option>
+                <option value="Chicken">Wood Fired Chicken</option>
+                <option value="Biscuits">Breakfast Biscuits</option>
+                <option value="Waffles">Waffles</option>
+            </select>
+        </label>
+        <br><br>
+        <form>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name">
+        </form>
+        <br>
+        <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </form>
+        <br>
+        <div id="commentdiv">Leave us a comment or thought when you visit.</div>
+        <textarea id="name" name="name" rows="1" cols="35"></textarea>
+        <br>
+        <label for="button">
+            <input id="button" type="submit" name="submit" >
+        </label>
+        <br>
+        <br>
+        <footer>
+            <nav>
+                <div class="footerdiv">
+                    <a href="/restaurants.html" class="footerlinks">Best Restaurant</a>
+                    <a href="/restaurants_page2.html" class="footerlinks">Bucket List Item</a>
+                    <a href="/restaurants_page3.html" class="footerlinks">Extra Hot Option</a>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
+
